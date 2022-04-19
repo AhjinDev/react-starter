@@ -25,39 +25,39 @@ project
 │   └───selectors
 ```
 
-&#8594; api : &nbsp;&nbsp;&nbsp;&nbsp; contains the API files 
-&#8594; assets : &nbsp;&nbsp;&nbsp;&nbsp; contains all the resources (Images/Videos/Sound/Fonts/...)
-&#8594; atoms : &nbsp;&nbsp;&nbsp;&nbsp; contains the atoms files for Recoil
-&#8594; components : &nbsp;&nbsp;&nbsp;&nbsp; contains all the components of the app, 1 folder by component
-&#8594; %component% : &nbsp;&nbsp;&nbsp;&nbsp; contains all the component files  
-&#8594; pages : &nbsp;&nbsp;&nbsp;&nbsp; The pages files 
-&#8594; lib : &nbsp;&nbsp;&nbsp;&nbsp; contains all the files for utils and services that will be used by many component
-&#8594; routes : &nbsp;&nbsp;&nbsp;&nbsp; contains the routes files
-&#8594; selectors : &nbsp;&nbsp;&nbsp;&nbsp; contains the selectors files for Recoil
+&#8594; api : &nbsp;&nbsp;&nbsp;&nbsp; contains the API files \
+&#8594; assets : &nbsp;&nbsp;&nbsp;&nbsp; contains all the resources (Images/Videos/Sound/Fonts/...) \
+&#8594; atoms : &nbsp;&nbsp;&nbsp;&nbsp; contains the atoms files for Recoil \
+&#8594; components : &nbsp;&nbsp;&nbsp;&nbsp; contains all the components of the app, 1 folder by component \
+&#8594; %component% : &nbsp;&nbsp;&nbsp;&nbsp; contains all the component files  \
+&#8594; pages : &nbsp;&nbsp;&nbsp;&nbsp; The pages files \
+&#8594; lib : &nbsp;&nbsp;&nbsp;&nbsp; contains all the files for utils and services that will be used by many component \
+&#8594; routes : &nbsp;&nbsp;&nbsp;&nbsp; contains the routes files \
+&#8594; selectors : &nbsp;&nbsp;&nbsp;&nbsp; contains the selectors files for Recoil \
 
 
 ## Good practices
 
-&#8594; One component = One folder
-We need to separate the different component. When a component deals with data/recoil/UI, it can be useful to put the processing into a separate .js file, this have for goal to help us during the testing phase.
+#### &#8594; One component = One folder \
+We need to separate the different component. When a component deals with data/recoil/UI, it can be useful to put the processing into a separate .js file, this have for goal to help us during the testing phase. \
 
-&#8594; SMART/DUMB components
+#### &#8594; SMART/DUMB components \
 We can separate the component in two sub directory. The SMART one is for the components which manipulate data/recoil/UI and the DUMB one is for the components which only show data.
 
-&#8594; Too many props
+#### &#8594; Too many props \
 When a component have to many props, it can be useful to subdivide it into two or more components to simplify its "tasks".
 
-&#8594; PropTypes
+#### &#8594; PropTypes \
 We need to define types of props to get a better debug phase and not waste more time.
 
-&#8594; Lib folder
+#### &#8594; Lib folder \
 When a processing function or a service is used by many components, its .js file have to be moved to the lib folder.
 When a function don't have a component logic, we put its .js file here.
 
-&#8594; Export names
+#### &#8594; Export names \
 When we export something, we need to name the export as the name of the file. 
 
-&#8594; JEST Test
+#### &#8594; JEST Test \
 Each component get its test file into its own folder.
 
 
