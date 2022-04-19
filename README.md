@@ -1,6 +1,28 @@
-# Starter Kit ReactJS (TypeScript/TailwindCSS)
+# Starter Kit ReactJS (TypeScript/TailwindCSS/Recoil)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This starter kit is based on the `npx create-react-app starter-kit --template typescript` command.\ [Create React App](https://github.com/facebook/create-react-app).
+
+We choose to implement [TailwindCSS](https://v2.tailwindcss.com/docs) as the CSS Framework.
+
+For the state management, we decide to use [Recoil](https://recoiljs.org/fr/), a open source state management lib for React and created by Facebook.
+
+The principle language is [TypeScript](https://www.typescriptlang.org/), it is useful to get less debug thanks to Types.
+
+## Project Structure
+
+This structure will evolve during the process of getting a good starter kit
+
+&#8594; src
+    &#8594; api
+    &#8594; assets
+    &#8594; atoms
+    &#8594; components
+    &#8594; lib
+    &#8594; routes
+    &#8594; selectors
+
+
+
 
 ## Available Scripts
 
