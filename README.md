@@ -87,3 +87,18 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## `docker build -t react-image .`
+
+Builds the docker image based on the Dockerfile and .dockerignore.
+This image is required to start the app in a Docker container.
+
+## `docker run --rm -p 3000:3000 -v $(pwd)/src:/app/src:ro react-image`
+
+Launch a Docker container based on our docker image created before.
+
+-p : bind our port 3000 on the container's port 3000 
+-v : bind our project folder on the container folder (this allows to dev in the container)
+
+/!\ WARNING /!\
+This command works only on Linux Kernel (Linux/MacOS)
