@@ -98,7 +98,7 @@ This image is required to start the app in a Docker container.
 Launch a Docker container based on our docker image created before.
 
 -p : bind our port 3000 on the container's port 3000 \
--v : bind our project folder on the container folder (this allows to dev in the container) \
+-v : bind our project folder on the container folder (this allows to dev in the container) 
 
 ! WARNING ! \
 This command works only on Linux Kernel (Linux/MacOS) 
