@@ -12,7 +12,7 @@ build:
     - echo "Build successfully!"
   artifacts:
     expire_in: 1 hour
-    path:
+    paths:
       - build
       - node_modules/
 
