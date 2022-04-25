@@ -95,7 +95,9 @@ This image is required to start the app in a Docker container.
 
 ### `docker run --rm -p 3000:3000 -v $(pwd)/src:/app/src:ro react-image`
 **! WARNING !** \
-This command works only on Linux Kernel (Linux/MacOS) \
+This command works only on Linux Kernel (Linux/MacOS) 
+
+
 Launch a Docker container based on our docker image created before.
 
 -p : bind our port 3000 on the container's port 3000 \
