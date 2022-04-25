@@ -88,12 +88,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## `docker build -t react-image .`
+### `docker build -t react-image .`
 
 Builds the docker image based on the Dockerfile and .dockerignore.
 This image is required to start the app in a Docker container.
 
-## `docker run --rm -p 3000:3000 -v $(pwd)/src:/app/src:ro react-image`
+### `docker run --rm -p 3000:3000 -v $(pwd)/src:/app/src:ro react-image`
 
 Launch a Docker container based on our docker image created before.
 
