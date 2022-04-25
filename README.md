@@ -103,4 +103,6 @@ Launch a Docker container based on our docker image created before.
 -p : bind our port 3000 on the container's port 3000 \
 -v : bind our project folder on the container folder (this allows to dev in the container) 
 
+**DOCKER DEV ENVIRONNEMENTS** \
+Docker now provides with its Docker Desktop app the Docker dev environnement that allow to create container based on git branches or local directory and then share with teammates to test our changes in the same environnement. 
 
