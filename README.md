@@ -106,3 +106,7 @@ Launch a Docker container based on our docker image created before.
 **DOCKER DEV ENVIRONNEMENTS** \
 Docker now provides with its Docker Desktop app the Docker dev environment that allow to create container based on git branches or local directory and then share with teammates to test our changes in the same environment. 
 
+
+-- CI/CD 
+We need a Gitlab Runner for ReactJS/NodeJS
+
