@@ -1,0 +1,22 @@
+{
+    "name": "React starter kit",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    "forwardPorts": [
+        3000
+    ],
+    "extensions": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "naumovs.color-highlight",
+        "ms-vscode-remote.remote-containers",
+        "bradlc.vscode-tailwindcss",
+        "prisma.prisma",
+        "esbenp.prettier-vscode",
+        "csstools.postcss",
+        "PKief.material-icon-theme",
+        "vincaslt.highlight-matching-tag",
+        "dbaeumer.vscode-eslint"
+    ]
+}
