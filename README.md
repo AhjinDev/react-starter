@@ -1,5 +1,7 @@
 # Starter Kit ReactJS (TypeScript/TailwindCSS/Recoil)
 
+French Slides : https://hackmd.io/@AhjinDev/SyZgMV9Lq#/
+
 This starter kit is based on the `npx create-react-app starter-kit --template typescript` command. \
 We choose to implement [TailwindCSS](https://v2.tailwindcss.com/docs) as the CSS Framework.
 
